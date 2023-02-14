@@ -1,2 +1,2 @@
 #!/bin/bash
-export PATH=/action:$PATH
+export PATH=$PATH:/action #adds directory to the END of the PATH 

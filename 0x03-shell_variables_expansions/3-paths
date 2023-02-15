@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr ':' '\n' | wc -l
+echo $PATH | tr ':' '\n' | wc -l #using $PATH, translate all directories (:) into new lines (\n) and count the number of lines (wc -l)
